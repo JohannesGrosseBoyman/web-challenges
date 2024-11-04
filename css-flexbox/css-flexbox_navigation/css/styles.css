@@ -23,9 +23,15 @@ ul {
   background-color: #f3f5f9;
 }
 
+.navigation__menu {
+  display: flex;
+  gap: 10px;
+}
+
 .navigation__link {
   background-color: #ff4a11;
   color: #ffffff;
   padding: 5px 14px;
   border-radius: 5px;
+  justify-content: space-between;
 }

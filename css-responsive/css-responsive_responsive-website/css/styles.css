@@ -240,10 +240,44 @@ CSS based on conditions such as viewport width, etc. */
 
 /* Media Query Tablet */
 /* --- */
-/* Replace this comment with your media query. */
+@media screen and (min-width: 600px) {
+  .card-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .product-card,
+  .intro-text {
+    width: 45%;
+  }
+  .intro-text {
+    align-self: flex-start;
+  }
+}
 /* --- */
 
 /* Media Query Desktop */
 /* --- */
-/* Replace this comment with your media query. */
+@media screen and (min-width: 1024px) {
+  .card-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .product-card,
+  .intro-text {
+    width: 48%;
+  }
+  .intro-text {
+    align-self: flex-start;
+  }
+
+  .--forest {
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+  }
+}
 /* --- */

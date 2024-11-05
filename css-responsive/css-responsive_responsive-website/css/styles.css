@@ -260,6 +260,14 @@ CSS based on conditions such as viewport width, etc. */
 /* Media Query Desktop */
 /* --- */
 @media screen and (min-width: 1024px) {
+  .main-header,
+  .navbar,
+  .main-content,
+  .main-footer {
+    margin-left: 17vw;
+    width: 66%;
+  }
+
   .card-section {
     flex-direction: row;
     flex-wrap: wrap;

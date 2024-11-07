@@ -10,3 +10,11 @@ Create a program that calculates the total cost of a meal, including tip, based 
 3. Calculate the total cost of the meal, including tip, by adding the mealCost variable and the tipAmount variable, and store the result in a variable called totalCost.
 4. Log out a message using the console.log() method.
 */
+const mealCost = 15;
+const tipPercent = 0.15;
+let tipAmount = tipPercent * mealCost;
+let totalCost = mealCost + tipAmount;
+
+console.log("The meal costs: ", mealCost, "€");
+console.log("The tip is: ", tipAmount, "€");
+console.log("The waiter received alltogether: ", totalCost, "€");

@@ -6,14 +6,16 @@ const radiusInput = document.querySelector('[data-js="input-radius"]');
 const rotationInput = document.querySelector('[data-js="input-rotation"]');
 
 colorInput.addEventListener("input", (event) => {
-    box.style.background = `hsl(${colorInput.value} ,70%, 60%)`;
-    console.log(box.style.background);
-})
+  box.style.background = `hsl(${colorInput.value} ,70%, 60%)`;
+  console.log(box.style.background);
+});
 
 radiusInput.addEventListener("input", (event) => {
-    box.style.borderRadius = `${radiusInput.value * 2}px`;
-})
+  box.style.borderRadius = `${radiusInput.value * 2}px`;
+  console.log(event);
+});
 
 rotationInput.addEventListener("input", (event) => {
-    box.style.transform = `rotate(${rotationInput.value}deg)`;
-})
+  box.style.transform = `rotate(${rotationInput.value}deg)`;
+  console.log(event);
+});

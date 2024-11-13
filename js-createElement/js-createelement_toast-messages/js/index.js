@@ -17,5 +17,5 @@ clearButton.addEventListener("click", (event) => {
   // Exercise: Clear the stack of toast messages
   event.preventDefault();
   while (toastContainer.hasChildNodes)
-    toastContainer.removeChild(toastContainer.children[0]);
+    toastContainer.removeChild(toastContainer.firstChild);
 });

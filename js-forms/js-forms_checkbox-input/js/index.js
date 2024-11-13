@@ -48,3 +48,5 @@ tosCheckbox.addEventListener("input", (event) => {
     return;
   }
 });
+
+hideTosError();

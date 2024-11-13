@@ -51,8 +51,16 @@ secondArticle.innerHTML = `
       </footer>`;
 
 
+/* Option 1
 const buyButton = document.querySelector('[data-js="like-button"]');
 
 buyButton.addEventListener("click", (event) => {
   console.log(`The product: ${name} has a price of ${price}`); 
+});
+*/
+
+// Option 2 - query on the new created Element
+const buyButton = secondArticle.querySelector(".product__buy-button");
+buyButton.addEventListener("click", () => {
+  console.log(`Product: ${name}, Price: ${price}`);
 });

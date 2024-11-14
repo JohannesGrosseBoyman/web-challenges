@@ -27,14 +27,17 @@ function renderStars(filledStars) {
 
 // --^-- write or modify code above this line --^--
 const main = document.querySelector("main");
-// main.style.backgroundColor = "red"; 
+// main.style.backgroundColor = "red";
 main.addEventListener("click", () => {
-  main.style.backgroundColor = "red"; 
-})
+  main.style.backgroundColor =
+    main.style.backgroundColor === "red" ? "darkslateblue" : "red";
+});
 
 starContainer.addEventListener("click", () => {
-  starContainer.style.backgroundColor = "green"
-} )
-
+  starContainer.style.backgroundColor =
+    starContainer.style.backgroundColor === "green"
+      ? "rgb(252, 252, 252)"
+      : "green";
+});
 
 renderStars();

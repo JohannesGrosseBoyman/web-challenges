@@ -14,6 +14,7 @@ function renderStars(filledStars) {
     img.src = `assets/star-${type}.svg`;
     img.addEventListener("click", () => {
       renderStars(i);
+      console.log(i);
     });
     /*  if (i <= filledStars) {
         img.src =  `assets/star-filled.svg`
@@ -25,5 +26,15 @@ function renderStars(filledStars) {
 }
 
 // --^-- write or modify code above this line --^--
+const main = document.querySelector("main");
+// main.style.backgroundColor = "red"; 
+main.addEventListener("click", () => {
+  main.style.backgroundColor = "red"; 
+})
+
+starContainer.addEventListener("click", () => {
+  starContainer.style.backgroundColor = "green"
+} )
+
 
 renderStars();

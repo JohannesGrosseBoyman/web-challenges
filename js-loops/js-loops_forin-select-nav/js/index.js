@@ -46,9 +46,9 @@ navElement.append(ul);
 for (const key in nav) {
   const newListItem = document.createElement("li");
   const newAnchor = document.createElement("a");
-  console.log(nav[key].href);
-  console.log(nav[key].text);
-  newListItem.textContent = nav[key].text;
+  // console.log(nav[key].href);
+  // console.log(nav[key].text);
+  newAnchor.textContent = nav[key].text;
   newAnchor.href = nav[key].href;
   ul.appendChild(newListItem);
   newListItem.appendChild(newAnchor);

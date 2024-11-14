@@ -48,11 +48,10 @@ for (const key in nav) {
   const newAnchor = document.createElement("a");
   console.log(nav[key].href);
   console.log(nav[key].text);
-  newListItem.textContent = nav[key].text;
+  newAnchor.textContent = nav[key].text;
   newAnchor.href = nav[key].href;
   ul.appendChild(newListItem);
   newListItem.appendChild(newAnchor);
 }
-
 
 // --^-- write or modify code above this line --^--

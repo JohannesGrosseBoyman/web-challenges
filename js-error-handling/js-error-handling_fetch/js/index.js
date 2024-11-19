@@ -7,13 +7,17 @@ const errorElement = document.querySelector("[data-js='error']");
 async function fetchUserData(url) {
   try {
     const response = await fetch(url);
-    /*const data = await response.json();
-    console.log("data: ", typeof data)
-    console.log(data);*/
+    const contentType = response.headers.get("content-type");
+    //console.log(contentType);
+    //console.log(typeof contentType);
+
     console.log(response);
     if (!response.ok) {
       throw new Error(`There is an http-error:  ${response.status}`);
+    } else if (!contentType.includes("application/json")) {
+      throw new Error("Expected JSON response but received: " + contentType);
     }
+
     return await response.json();
   } catch (error) {
     return { error: error.message };
@@ -36,6 +40,7 @@ endpoints.forEach((endpoint) => {
     const result = await fetchUserData(endpoint.url);
 
     if (result.error) {
+      console.error(result.error);
       errorElement.textContent = result.error;
       userElement.innerHTML = "No user data available.";
     } else {

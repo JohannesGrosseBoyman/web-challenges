@@ -7,7 +7,13 @@ const errorElement = document.querySelector("[data-js='error']");
 async function fetchUserData(url) {
   try {
     const response = await fetch(url);
-
+    /*const data = await response.json();
+    console.log("data: ", typeof data)
+    console.log(data);*/
+    console.log(response);
+    if (!response.ok) {
+      throw new Error(`There is an http-error:  ${response.status}`);
+    }
     return await response.json();
   } catch (error) {
     return { error: error.message };

@@ -10,7 +10,7 @@ async function fetchUserData(url) {
     const contentType = response.headers.get("content-type");
     //console.log(contentType);
     //console.log(typeof contentType);
-
+   
     console.log(response);
     if (!response.ok) {
       throw new Error(`There is an http-error:  ${response.status}`);
@@ -38,7 +38,7 @@ endpoints.forEach((endpoint) => {
 
   button.addEventListener("click", async () => {
     const result = await fetchUserData(endpoint.url);
-
+    console.log(result.data);
     if (result.error) {
       console.error(result.error);
       errorElement.textContent = result.error;

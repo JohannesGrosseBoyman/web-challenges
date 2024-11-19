@@ -45,6 +45,7 @@ endpoints.forEach((endpoint) => {
       userElement.innerHTML = "No user data available.";
     } else {
       const user = result.data;
+
       userElement.innerHTML = `
       <img alt="${user.first_name} ${user.last_name}" src="${user.avatar}" class="user__image"/>
       <h2>${user.first_name} ${user.last_name}</h2>

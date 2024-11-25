@@ -32,6 +32,7 @@ body {
 }
 
 .article__link {
+  
   width: fit-content;
   background-color: var(--color-granite);
   color: var(--color-foam);

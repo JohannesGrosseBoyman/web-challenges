@@ -6,15 +6,17 @@ import { employees } from "../utils/db.js";
 // Check the browser preview and conduct some tests to ensure it works correctly.
 
 function findByLastName(employees, lastName) {
-  const employeeWithLastName = employees.find(employee => employee.lastName === lastName);
-  //console.log(employeeWithLastName);
+  const employeeWithLastName = employees.find(
+    (employee) => employee.lastName === lastName
+  );
+  console.log(employeeWithLastName);
   return employeeWithLastName;
 
   // Exercise 2:
   // The same as above, but now you are searching by the 'id'.
 }
 function findById(employees, id) {
-  const employeeWithId = employees.find(employee => employee.id === id);
+  const employeeWithId = employees.find((employee) => employee.id === id);
   return employeeWithId;
 }
 
@@ -22,7 +24,9 @@ function findById(employees, id) {
 // This time you want to find an employee who lives in a city that includes a specific substring.
 
 function findByCitySubString(employees, string) {
-  const employeeWithSubstringCity = employees.find(employee => employee.city.includes(string));
+  const employeeWithSubstringCity = employees.find((employee) =>
+    employee.city.includes(string)
+  );
   console.log(employeeWithSubstringCity);
   return employeeWithSubstringCity;
 }
@@ -32,17 +36,21 @@ function findByCitySubString(employees, string) {
 // AND who is older than a specific age
 
 function findByProfessionSubStringAndAge(employees, string, age) {
-  /* this returns an array that contains all the object which matches these criteria
-  const employeeWithSubstringProfession = employees.filter(employee => employee.profession.includes(string) 
-  && employee.age > age);
+  // this returns an array that contains all the object which matches these criteria
+  const employeeWithSubstringProfession = employees.filter(
+    (employee) => employee.profession.includes(string) && employee.age > age
+  );
   console.log(employeeWithSubstringProfession);
-  return employeeWithSubstringProfession; */
+  const lastItemInArray = employeeWithSubstringProfession.length;
+  return employeeWithSubstringProfession[lastItemInArray - 1];
+  /*
   // this finds the first person who matches both criteria
  const employeeProfessionSubStringAndAge =  employees.find(
   (employee) =>
     employee.profession.toLowerCase().includes(string.toLowerCase()) &&
     employee.age > age);
     return employeeProfessionSubStringAndAge; 
+    */
 }
 
 // ------------------------------------------------------------------------------

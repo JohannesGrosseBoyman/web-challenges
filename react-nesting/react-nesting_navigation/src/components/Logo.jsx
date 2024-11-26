@@ -1,6 +1,6 @@
 import logo from "../img/logo.jpg";
 
-import { Image } from "./Image.jsx";
+import Image from "./Image.jsx";
 
 export default function Logo() {
   return (

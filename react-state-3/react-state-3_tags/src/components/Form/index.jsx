@@ -5,7 +5,7 @@ export default function Form({ onAddTag }) {
     event.preventDefault();
     const formData = new FormData(event.target);
     const data = Object.fromEntries(formData);
-
+    //console.log(data);
     onAddTag(data.tag);
 
     event.target.reset();

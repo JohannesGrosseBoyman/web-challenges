@@ -17,7 +17,7 @@ export default function App() {
 
     const intervalId = setInterval(() => {
       getISSCoords();
-    }, 5000);
+    }, 15000);
 
     return () => clearInterval(intervalId);
    }, []);
@@ -27,13 +27,16 @@ export default function App() {
       const response = await fetch(URL);
       const data = await response.json();
       console.log(data);
-      setCoords({ longitude: data.longitude, latitude: data.latitude})
+      setCoords({ 
+        longitude: data.longitude, 
+        latitude: data.latitude
+      })
     } catch(error) {
       console.log(error);
     }  
   }
 
-  getISSCoords();
+  
 
   return (
     <main>

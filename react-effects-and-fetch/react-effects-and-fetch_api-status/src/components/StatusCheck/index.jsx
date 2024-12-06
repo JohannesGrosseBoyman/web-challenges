@@ -4,23 +4,9 @@ import "./StatusCheck.css";
 const apiStatusUrl = "https://example-apis.vercel.app/api/status";
 
 export default function StatusCheck() {
-  const [statusIcon, setStatusIcon]  = useState("⁉️");
-  //const [loading, setLoading] = useState(false);
-  // Something needs to change here…
-  // ↙️
+  const [statusIcon, setStatusIcon] = useState("⁉️");
+
   async function handleCheckApiStatus() {
-    /**
-     * Hint 1:
-     * Use the `fetch()` function to send a request to `apiStatusUrl`.
-     *
-     * Hint 2:
-     * The `fetch()` function returns a promise that resolves to a Response
-     * object.
-     *
-     * Hint 3:
-     * The Response object has a `ok` property which is true if the response
-     * is okay and false if it is not.
-     **/
     // --v-- write your code here --v--
     setStatusIcon("⏳");
     try {
@@ -30,17 +16,13 @@ export default function StatusCheck() {
       console.log("response: ", response);
 
       if (response.ok) {
-        setStatusIcon("✅") ;
-      } else [
-        setStatusIcon("❌")
-      ]
-    } catch(error) {
+        setStatusIcon("✅");
+      } else [setStatusIcon("❌")];
+    } catch (error) {
       return setStatusIcon("🚨");
     }
 
-
-
-        // --^-- write your code here --^--
+    // --^-- write your code here --^--
   }
 
   return (

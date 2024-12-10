@@ -1,3 +1,4 @@
+import styled from "styled-components";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -17,7 +18,7 @@ export default function VolumeDetail() {
     return null;
   }
 
-  const { title, description, cover, books } = volume;
+  const { title, description, cover, books, color } = volume;
 
   return (
     <>

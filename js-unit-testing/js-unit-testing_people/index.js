@@ -5,26 +5,33 @@ export function getFirstNames(people) {
 }
 
 export function getFullNames(people) {
-  const result =  people.map((person) =>
-     `${person.firstName} ${person.lastName}`);
+  const result = people.map(
+    (person) => `${person.firstName} ${person.lastName}`
+  );
   return result;
 }
- 
+
 export function getNameAndAge(people) {
-  const result = people.map((person) =>
-  `${person.lastName} (${person.age})`);
+  const result = people.map((person) => `${person.lastName} (${person.age})`);
   return result;
 }
 
 export function getPeopleByAge(people, age) {
-  const result = people.filter((person, age) =>
-  person.age === age);
+  const result = people.filter((person, age) => person.age === age);
   return result;
 }
 
-export function getPeopleNamesOlderThan(people, age) {}
+export function getPeopleNamesOlderThan(people, age) {
+  const result = people
+    .filter((person, age) => person.age > age)
+    .map((person) => `${person.firstName} ${person.lastName}`);
+  return result;
+}
 
-export function getPeopleByLastName(people, lastName) {}
+export function getPeopleByLastName(people, lastName) {
+  const result = people.filter((person) => person.lastName === lastName);
+  return result;
+}
 
 export function findPersonById(people, id) {}
 
@@ -32,4 +39,4 @@ export function isAnyoneOlderThan(people, age) {}
 
 export function getFullNamesSortedByAge(people) {}
 
-getFullNames(people)
+getFullNames(people);

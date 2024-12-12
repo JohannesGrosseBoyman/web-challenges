@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
   ]);
 
   const lightsSum = lights.filter((room) => room.isOn === true).length;
-  console.log("lights turned on: ", lightsSum);
+  const isDimmed =  (lightsSum === 0) ? true : false ;
 
   function handleToggle(id) {
     setLights(
@@ -38,7 +38,7 @@ export default function App({ Component, pageProps }) {
   }
 
   return (
-    <Layout>
+    <Layout isDimmed={isDimmed} >
       <GlobalStyle />
       <Component
         {...pageProps}

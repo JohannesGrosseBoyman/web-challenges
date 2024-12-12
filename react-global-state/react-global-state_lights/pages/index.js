@@ -1,7 +1,6 @@
 import Link from "../components/Link";
 
 export default function HomePage({ lightsSum }) {
-  console.log("lightsSum: ", lightsSum);
   return (
     <div>
       <h1>Home</h1>

@@ -25,6 +25,18 @@ export default function App({ Component, pageProps }) {
     );
   }
 
+  function toggleLightsOut() {
+    setLights(
+      lights.map((room) => room = { ...room, isOn: false}
+      ));
+  }
+
+  function toggleLightsOn() {
+    setLights(
+      lights.map((room) => room = { ...room, isOn: true}
+      ));
+  }
+
   return (
     <Layout>
       <GlobalStyle />
@@ -33,6 +45,8 @@ export default function App({ Component, pageProps }) {
         lights={lights}
         onToggle={handleToggle}
         lightsSum={lightsSum}
+        onOut={toggleLightsOut}
+        onOn={toggleLightsOn}
       />
     </Layout>
   );

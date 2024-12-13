@@ -8,11 +8,11 @@ import Image from "next/image";
 export default function BookVolumeDetail() {
     const currentVolumne = volumes.find(({slug}) => 
         slug === "the-fellowship-of-the-ring");
-    console.log(currentVolumne);
+
 
     const { title, description, cover, books } = currentVolumne
     
-    console.log(title);
+
 
 
 

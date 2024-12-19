@@ -1,4 +1,4 @@
-import useSWR from "swr";
+import useSWR, { mutate } from "swr";
 import styled from "styled-components";
 import StyledButton from "@/components/Button";
 
@@ -10,7 +10,7 @@ export default function ProductForm() {
 
     const formData = new FormData(event.target);
     const productData = Object.fromEntries(formData);
-
+    try {
     const response = await fetch("/api/products", {
       method: "POST",
       headers: {
@@ -21,6 +21,11 @@ export default function ProductForm() {
 
     if (response.ok) {
       mutate();
+    } else {
+      console.error("Failed to create product.", response.statusText);
+    }
+    } catch (error) {
+      console.error(error);
     }
   }
 

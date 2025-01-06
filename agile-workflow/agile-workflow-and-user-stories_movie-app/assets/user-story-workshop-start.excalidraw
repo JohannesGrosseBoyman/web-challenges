@@ -113,8 +113,8 @@
     },
     {
       "type": "text",
-      "version": 114,
-      "versionNonce": 692203476,
+      "version": 115,
+      "versionNonce": 489934703,
       "isDeleted": false,
       "id": "_QM5tCH-8OYwbRiv7vw6p",
       "fillStyle": "hachure",
@@ -134,7 +134,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497810,
+      "updated": 1736158532336,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -289,7 +289,7 @@
       "containerId": null,
       "originalText": "Indiana Jones and the \nDial of Destiny",
       "lineHeight": 1.15,
-      "baseline": 32
+      "baseline": 33
     },
     {
       "type": "rectangle",
@@ -746,7 +746,7 @@
       "containerId": null,
       "originalText": "7.4",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -813,7 +813,7 @@
       "containerId": null,
       "originalText": "8.3",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -880,7 +880,7 @@
       "containerId": null,
       "originalText": "7.8",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -947,7 +947,7 @@
       "containerId": null,
       "originalText": "7.6",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "line",
@@ -1056,7 +1056,7 @@
       "containerId": null,
       "originalText": "4.5",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "line",
@@ -1165,7 +1165,7 @@
       "containerId": null,
       "originalText": "6.5",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "line",
@@ -1307,8 +1307,8 @@
     },
     {
       "type": "text",
-      "version": 171,
-      "versionNonce": 655910764,
+      "version": 172,
+      "versionNonce": 1548116737,
       "isDeleted": false,
       "id": "Zl_7wbbiWrdiDMtH4xTcr",
       "fillStyle": "hachure",
@@ -1328,7 +1328,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497811,
+      "updated": 1736158532347,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -1370,8 +1370,8 @@
     },
     {
       "type": "text",
-      "version": 68,
-      "versionNonce": 1117066580,
+      "version": 69,
+      "versionNonce": 1007028623,
       "isDeleted": false,
       "id": "FYH1npdpTXK4NBTU6jn4y",
       "fillStyle": "solid",
@@ -1391,7 +1391,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497812,
+      "updated": 1736158532351,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -1406,8 +1406,8 @@
     },
     {
       "type": "text",
-      "version": 169,
-      "versionNonce": 1242640286,
+      "version": 170,
+      "versionNonce": 1986288353,
       "isDeleted": false,
       "id": "OEx-OFPJLPbdbyiy7XYMg",
       "fillStyle": "solid",
@@ -1420,14 +1420,14 @@
       "y": 289.15108666401943,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffffff",
-      "width": 339.8125,
+      "width": 339.8046875,
       "height": 36.8,
       "seed": 1788145252,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090217857,
+      "updated": 1736158532352,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -1438,7 +1438,7 @@
       "containerId": null,
       "originalText": "Sorry, we couldn't retrieve the latest movie data \nat the moment. Please try again later.",
       "lineHeight": 1.15,
-      "baseline": 32
+      "baseline": 33
     },
     {
       "type": "rectangle",
@@ -1550,8 +1550,8 @@
     },
     {
       "type": "text",
-      "version": 355,
-      "versionNonce": 753965548,
+      "version": 356,
+      "versionNonce": 1422655407,
       "isDeleted": false,
       "id": "T_tGWMZRkRfldt1eBAmhL",
       "fillStyle": "hachure",
@@ -1571,7 +1571,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497813,
+      "updated": 1736158532352,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -1726,7 +1726,7 @@
       "containerId": null,
       "originalText": "Indiana Jones and the \nDial of Destiny",
       "lineHeight": 1.15,
-      "baseline": 32
+      "baseline": 33
     },
     {
       "type": "line",
@@ -2129,7 +2129,7 @@
       "containerId": null,
       "originalText": "7.4",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -2196,7 +2196,7 @@
       "containerId": null,
       "originalText": "8.3",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -2263,7 +2263,7 @@
       "containerId": null,
       "originalText": "7.8",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -2330,7 +2330,7 @@
       "containerId": null,
       "originalText": "7.6",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -2397,7 +2397,7 @@
       "containerId": null,
       "originalText": "4.5",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -2464,12 +2464,12 @@
       "containerId": null,
       "originalText": "6.5",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "text",
-      "version": 412,
-      "versionNonce": 1265584852,
+      "version": 413,
+      "versionNonce": 767055553,
       "isDeleted": false,
       "id": "sbt3iIt28JiA0Q3o16uM6",
       "fillStyle": "hachure",
@@ -2489,7 +2489,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497813,
+      "updated": 1736158532354,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -2531,8 +2531,8 @@
     },
     {
       "type": "text",
-      "version": 361,
-      "versionNonce": 1579056236,
+      "version": 362,
+      "versionNonce": 1773023695,
       "isDeleted": false,
       "id": "vriy_iPfw4j5u1y4hZNZa",
       "fillStyle": "solid",
@@ -2552,7 +2552,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497814,
+      "updated": 1736158532355,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -2746,12 +2746,12 @@
       "containerId": null,
       "originalText": "Release Date:\n2023-07-19",
       "lineHeight": 1.15,
-      "baseline": 32
+      "baseline": 33
     },
     {
       "type": "text",
-      "version": 161,
-      "versionNonce": 1390414750,
+      "version": 162,
+      "versionNonce": 1960957601,
       "isDeleted": false,
       "id": "uMdI68Gt7x-95x5YHWZDc",
       "fillStyle": "solid",
@@ -2764,14 +2764,14 @@
       "y": 1674.106890486922,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffffff",
-      "width": 353.125,
+      "width": 353.1171875,
       "height": 92,
       "seed": 1472613220,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090223638,
+      "updated": 1736158532358,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -2945,7 +2945,7 @@
       "containerId": null,
       "originalText": "4.5",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "line",
@@ -3054,7 +3054,7 @@
       "containerId": null,
       "originalText": "6.5",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "line",
@@ -3394,8 +3394,8 @@
     },
     {
       "type": "text",
-      "version": 610,
-      "versionNonce": 1986449492,
+      "version": 611,
+      "versionNonce": 600121327,
       "isDeleted": false,
       "id": "sOFxvdJZyHdu0LxZt8MX6",
       "fillStyle": "hachure",
@@ -3415,7 +3415,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497814,
+      "updated": 1736158532360,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -3570,7 +3570,7 @@
       "containerId": null,
       "originalText": "Indiana Jones and the \nDial of Destiny",
       "lineHeight": 1.15,
-      "baseline": 32
+      "baseline": 33
     },
     {
       "type": "line",
@@ -3973,7 +3973,7 @@
       "containerId": null,
       "originalText": "7.4",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -4036,7 +4036,7 @@
       "containerId": null,
       "originalText": "8.3",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -4103,7 +4103,7 @@
       "containerId": null,
       "originalText": "7.8",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -4170,12 +4170,12 @@
       "containerId": null,
       "originalText": "7.6",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "text",
-      "version": 667,
-      "versionNonce": 611061484,
+      "version": 668,
+      "versionNonce": 1049647745,
       "isDeleted": false,
       "id": "Y_eRla9eEmabz7ftnkLlN",
       "fillStyle": "hachure",
@@ -4195,7 +4195,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497815,
+      "updated": 1736158532362,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -4237,8 +4237,8 @@
     },
     {
       "type": "text",
-      "version": 631,
-      "versionNonce": 860988884,
+      "version": 632,
+      "versionNonce": 1964591631,
       "isDeleted": false,
       "id": "PYimwFp9A3h-dBgYyADBv",
       "fillStyle": "solid",
@@ -4258,7 +4258,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497815,
+      "updated": 1736158532364,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -4452,12 +4452,12 @@
       "containerId": null,
       "originalText": "Release Date:\n2023-07-19",
       "lineHeight": 1.15,
-      "baseline": 32
+      "baseline": 33
     },
     {
       "type": "text",
-      "version": 416,
-      "versionNonce": 434818782,
+      "version": 417,
+      "versionNonce": 2072207969,
       "isDeleted": false,
       "id": "Ezb0JSOYMMCoORziNUiP5",
       "fillStyle": "solid",
@@ -4470,14 +4470,14 @@
       "y": 2679.6289158388145,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffffff",
-      "width": 353.125,
+      "width": 353.1171875,
       "height": 92,
       "seed": 1760418020,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090237281,
+      "updated": 1736158532365,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -4656,8 +4656,8 @@
     },
     {
       "type": "text",
-      "version": 192,
-      "versionNonce": 77959262,
+      "version": 193,
+      "versionNonce": 2057515055,
       "isDeleted": false,
       "id": "KbiUGSBRpjveGV6ibMf2L",
       "fillStyle": "solid",
@@ -4670,14 +4670,14 @@
       "y": 3003.439878115625,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffffff",
-      "width": 64.3125,
+      "width": 64.3046875,
       "height": 18.4,
       "seed": 1789202140,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090237281,
+      "updated": 1736158532365,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -4719,8 +4719,8 @@
     },
     {
       "type": "text",
-      "version": 312,
-      "versionNonce": 925339870,
+      "version": 313,
+      "versionNonce": 1485467201,
       "isDeleted": false,
       "id": "scNFp3HP-kujwfzrwj643",
       "fillStyle": "solid",
@@ -4733,14 +4733,14 @@
       "y": 2830.700856169903,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffffff",
-      "width": 115.015625,
+      "width": 115.0078125,
       "height": 18.4,
       "seed": 1023618532,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090237281,
+      "updated": 1736158532365,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -4755,8 +4755,8 @@
     },
     {
       "type": "text",
-      "version": 718,
-      "versionNonce": 543379820,
+      "version": 719,
+      "versionNonce": 508252751,
       "isDeleted": false,
       "id": "B_pitjcwwv9BY7dA5n16o",
       "fillStyle": "hachure",
@@ -4776,7 +4776,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497816,
+      "updated": 1736158532365,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -4818,8 +4818,8 @@
     },
     {
       "type": "text",
-      "version": 900,
-      "versionNonce": 1208587678,
+      "version": 901,
+      "versionNonce": 1015348769,
       "isDeleted": false,
       "id": "lgOxkk0LqbFwTtMdLKT-6",
       "fillStyle": "hachure",
@@ -4832,14 +4832,14 @@
       "y": 2341.238931697718,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
-      "width": 112.546875,
+      "width": 112.533203125,
       "height": 32.199999999999996,
       "seed": 275692636,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090237281,
+      "updated": 1736158532366,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -5060,7 +5060,7 @@
       "containerId": null,
       "originalText": "7.8",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "rectangle",
@@ -5270,7 +5270,7 @@
       "containerId": null,
       "originalText": "8.3",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "rectangle",
@@ -5369,8 +5369,8 @@
     },
     {
       "type": "text",
-      "version": 246,
-      "versionNonce": 777755038,
+      "version": 247,
+      "versionNonce": 2028613743,
       "isDeleted": false,
       "id": "eaWYbYeG4fwBceaWsrIsZ",
       "fillStyle": "solid",
@@ -5383,14 +5383,14 @@
       "y": 3001.572125337362,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffffff",
-      "width": 64.3125,
+      "width": 64.3046875,
       "height": 18.4,
       "seed": 1383704036,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090237281,
+      "updated": 1736158532367,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -5405,8 +5405,8 @@
     },
     {
       "type": "text",
-      "version": 795,
-      "versionNonce": 122014548,
+      "version": 796,
+      "versionNonce": 107123201,
       "isDeleted": false,
       "id": "tSqeiE_IvlDPcV07rqWim",
       "fillStyle": "hachure",
@@ -5426,7 +5426,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497816,
+      "updated": 1736158532367,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -5468,8 +5468,8 @@
     },
     {
       "type": "text",
-      "version": 977,
-      "versionNonce": 331961950,
+      "version": 978,
+      "versionNonce": 1950894735,
       "isDeleted": false,
       "id": "O0Sjq90gfW10s1AlEp-Ga",
       "fillStyle": "hachure",
@@ -5482,14 +5482,14 @@
       "y": 2342.1913491109362,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
-      "width": 112.546875,
+      "width": 112.533203125,
       "height": 32.199999999999996,
       "seed": 1046142436,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090237281,
+      "updated": 1736158532367,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -5599,8 +5599,8 @@
     },
     {
       "type": "text",
-      "version": 323,
-      "versionNonce": 1553217374,
+      "version": 324,
+      "versionNonce": 186821089,
       "isDeleted": false,
       "id": "pqer9mgWJvEAKDZ_5neC5",
       "fillStyle": "solid",
@@ -5613,14 +5613,14 @@
       "y": 3002.5245427505815,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffffff",
-      "width": 64.3125,
+      "width": 64.3046875,
       "height": 18.4,
       "seed": 1609602532,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090237281,
+      "updated": 1736158532368,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -5635,8 +5635,8 @@
     },
     {
       "type": "text",
-      "version": 258,
-      "versionNonce": 1242667934,
+      "version": 259,
+      "versionNonce": 756949167,
       "isDeleted": false,
       "id": "xlD-613SFf5nwe42uv8b0",
       "fillStyle": "solid",
@@ -5645,18 +5645,18 @@
       "roughness": 0,
       "opacity": 100,
       "angle": 0,
-      "x": 2021.7100075347153,
+      "x": 2021.7139137847153,
       "y": 2406.2385687898277,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffffff",
-      "width": 321.9296875,
+      "width": 321.921875,
       "height": 73.6,
       "seed": 1109010140,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090237281,
+      "updated": 1736158532368,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -5667,7 +5667,7 @@
       "containerId": null,
       "originalText": "Your watchlist is currently empty. Start adding\nmovies you want to watch by clicking \n'Add to Watchlist' on the movie details page. \nYour selected movies will appear here.",
       "lineHeight": 1.15,
-      "baseline": 69
+      "baseline": 70
     },
     {
       "type": "text",
@@ -5770,8 +5770,8 @@
     },
     {
       "type": "text",
-      "version": 265,
-      "versionNonce": 188783042,
+      "version": 266,
+      "versionNonce": 1406453185,
       "isDeleted": false,
       "id": "1sJIRZ-F6M-TDNnQzO0en",
       "fillStyle": "hachure",
@@ -5784,14 +5784,14 @@
       "y": -39.73603026265937,
       "strokeColor": "#868e96",
       "backgroundColor": "transparent",
-      "width": 66.69140625,
+      "width": 66.673828125,
       "height": 41.4,
       "seed": 1401770844,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090217860,
+      "updated": 1736158532369,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -5806,8 +5806,8 @@
     },
     {
       "type": "text",
-      "version": 340,
-      "versionNonce": 973101918,
+      "version": 341,
+      "versionNonce": 353645263,
       "isDeleted": false,
       "id": "O0I6sfva9mIQ2f9VkSFSB",
       "fillStyle": "hachure",
@@ -5820,14 +5820,14 @@
       "y": 127.87002771727589,
       "strokeColor": "#868e96",
       "backgroundColor": "transparent",
-      "width": 279.52734375,
+      "width": 279.509765625,
       "height": 41.4,
       "seed": 546866788,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090217860,
+      "updated": 1736158532369,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -5950,8 +5950,8 @@
     },
     {
       "type": "text",
-      "version": 370,
-      "versionNonce": 1364083692,
+      "version": 371,
+      "versionNonce": 462972321,
       "isDeleted": false,
       "id": "3O3oyrLS_en-68lVEA9rC",
       "fillStyle": "hachure",
@@ -5971,7 +5971,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497818,
+      "updated": 1736158532372,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -5982,12 +5982,12 @@
       "containerId": null,
       "originalText": "- Short and precise\n- More of a reminder what it is about",
       "lineHeight": 1.25,
-      "baseline": 60
+      "baseline": 59
     },
     {
       "type": "text",
-      "version": 429,
-      "versionNonce": 1687765204,
+      "version": 430,
+      "versionNonce": 1422065903,
       "isDeleted": false,
       "id": "MJWOfgL2Scf1hKSUKfy0t",
       "fillStyle": "hachure",
@@ -6007,7 +6007,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497818,
+      "updated": 1736158532373,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -6018,12 +6018,12 @@
       "containerId": null,
       "originalText": "As a\nI want\nso that",
       "lineHeight": 1.25,
-      "baseline": 95
+      "baseline": 94
     },
     {
       "type": "text",
-      "version": 480,
-      "versionNonce": 1027008108,
+      "version": 481,
+      "versionNonce": 228395393,
       "isDeleted": false,
       "id": "sNO72zNcKTbrVPymEmu_J",
       "fillStyle": "hachure",
@@ -6043,7 +6043,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497818,
+      "updated": 1736158532375,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -6054,12 +6054,12 @@
       "containerId": null,
       "originalText": "<ROLE>\n <ACTION>\n  <BENEFIT / REASON>",
       "lineHeight": 1.25,
-      "baseline": 95
+      "baseline": 94
     },
     {
       "type": "text",
-      "version": 459,
-      "versionNonce": 48367188,
+      "version": 460,
+      "versionNonce": 1840450319,
       "isDeleted": false,
       "id": "GlhUVfhyMtNySJ4pgdcUV",
       "fillStyle": "hachure",
@@ -6079,7 +6079,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497818,
+      "updated": 1736158532376,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -6090,12 +6090,12 @@
       "containerId": null,
       "originalText": "- Scribble / design or text\n- precise, no unnecessary information",
       "lineHeight": 1.25,
-      "baseline": 60
+      "baseline": 59
     },
     {
       "type": "text",
-      "version": 646,
-      "versionNonce": 417806572,
+      "version": 647,
+      "versionNonce": 1126314337,
       "isDeleted": false,
       "id": "xDQgxF3XuNBZtDvlxVCT5",
       "fillStyle": "hachure",
@@ -6115,7 +6115,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497818,
+      "updated": 1736158532376,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -6126,12 +6126,12 @@
       "containerId": null,
       "originalText": "Describe every scenario in detail:\n\n- all possible user interactions\n- all possible states\n- all eventualities\n- possible errors",
       "lineHeight": 1.25,
-      "baseline": 200
+      "baseline": 199
     },
     {
       "type": "text",
-      "version": 958,
-      "versionNonce": 922098644,
+      "version": 959,
+      "versionNonce": 475844911,
       "isDeleted": false,
       "id": "3DB3tG1Ag5pMaa8Fnw-UK",
       "fillStyle": "hachure",
@@ -6151,7 +6151,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497819,
+      "updated": 1736158532377,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -6162,12 +6162,12 @@
       "containerId": null,
       "originalText": "Technical explanations: from developers for developers\n\n- List the tasks that need to be performed within the\n  development team\n- Checkboxes: try to check as you work on it",
       "lineHeight": 1.25,
-      "baseline": 165
+      "baseline": 164
     },
     {
       "type": "text",
-      "version": 335,
-      "versionNonce": 1877556076,
+      "version": 336,
+      "versionNonce": 24599873,
       "isDeleted": false,
       "id": "q1oIyCOllnDMPWaT2YH7A",
       "fillStyle": "hachure",
@@ -6187,7 +6187,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497819,
+      "updated": 1736158532382,
       "link": null,
       "locked": false,
       "fontSize": 54.88787231728774,
@@ -6233,8 +6233,8 @@
     },
     {
       "type": "text",
-      "version": 675,
-      "versionNonce": 1256948052,
+      "version": 676,
+      "versionNonce": 2049495887,
       "isDeleted": false,
       "id": "bjMCLqv-VjB560Y3FSwa5",
       "fillStyle": "solid",
@@ -6247,7 +6247,7 @@
       "y": 1223.7655212890622,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffd43b",
-      "width": 107,
+      "width": 146.62767028808594,
       "height": 133.49379161268675,
       "seed": 1204301148,
       "groupIds": [
@@ -6256,7 +6256,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497819,
+      "updated": 1736158532385,
       "link": null,
       "locked": false,
       "fontSize": 106.7950332901494,
@@ -6271,8 +6271,8 @@
     },
     {
       "type": "text",
-      "version": 1193,
-      "versionNonce": 1283911148,
+      "version": 1194,
+      "versionNonce": 939265313,
       "isDeleted": false,
       "id": "v7p1HJfrUojzGyiGbYJDn",
       "fillStyle": "hachure",
@@ -6294,7 +6294,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497819,
+      "updated": 1736158532387,
       "link": null,
       "locked": false,
       "fontSize": 37.880139096429005,
@@ -6309,8 +6309,8 @@
     },
     {
       "type": "text",
-      "version": 635,
-      "versionNonce": 1444427476,
+      "version": 636,
+      "versionNonce": 1601147247,
       "isDeleted": false,
       "id": "rI_1ZMvZA4y9abfusxY62",
       "fillStyle": "solid",
@@ -6332,7 +6332,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497819,
+      "updated": 1736158532388,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -6343,7 +6343,7 @@
       "containerId": null,
       "originalText": "- They are preparation, planning and documentation\n- All information about a feature shoukd be there\n- Use a language for non-developers\n- No technical details (only in 'Tasks' section)",
       "lineHeight": 1.25,
-      "baseline": 130
+      "baseline": 129
     }
   ],
   "appState": {

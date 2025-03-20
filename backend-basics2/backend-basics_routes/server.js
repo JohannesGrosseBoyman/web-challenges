@@ -1,4 +1,4 @@
-import { createServer, request } from "node:http";
+import { createServer } from "node:http";
 
 export const server = createServer((request, response) => {
     if (request.url === "/api/fish/1") {
